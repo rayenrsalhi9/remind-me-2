@@ -1,0 +1,32 @@
+.container {
+  min-height: calc(100vh - 56px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .container-2 {
+    flex-direction: column-reverse;
+  }
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.main-title {
+  font-size: 48px;
+}
+
+.description {
+  font-size: 18px;
+}
